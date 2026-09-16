@@ -1,0 +1,8 @@
+{
+  "name": "Remix Remix Top Stars School Management System - Morogoro",
+  "description": "Complete Android App Architecture \u0026 Database Management System (DBMS) for Top Stars Nursery and Primary School, Morogoro, Tanzania.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

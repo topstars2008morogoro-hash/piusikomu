@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@keyframes marqueeSlide {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee-smooth {
+  display: inline-flex;
+  white-space: nowrap;
+  animation: marqueeSlide 20s linear infinite;
+  will-change: transform;
+}
+
+.animate-marquee-smooth:hover {
+  animation-play-state: paused;
+}
+
+.animate-marquee-mobile {
+  display: inline-flex;
+  white-space: nowrap;
+  animation: marqueeSlide 14s linear infinite;
+  will-change: transform;
+}
